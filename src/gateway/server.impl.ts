@@ -927,6 +927,7 @@ export async function startGatewayServer(
         resetOnExit: tailscaleConfig.resetOnExit,
         port,
         controlUiBasePath,
+        controlUrl: tailscaleConfig.controlUrl,
         logTailscale,
       });
 
